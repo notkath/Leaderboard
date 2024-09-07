@@ -8,7 +8,10 @@ function Navbar() {
         <div >
             <IoIosArrowBack size={45} />  
         </div>
-        <h1 className='absolute text-3xl w-full h-12   top-33px font-semibold leading-10'>Leaderboard</h1>
+        <div className='flex-1 flex justify-center justify-items-center'>
+          <h1 className=' text-3xl w-full h-12 top-33px font-semibold leading-10'>Leaderboard</h1>
+        </div>
+        
 
         <div className='px-3'>
             <svg width="30" height="34" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -10,9 +10,9 @@ const Playerboard = ({ players }) => {
       ];
   return (
 <div className=" flex flex-col md:flex md:flex-row">
-  <div className="flex items-end space-x-2 mt-10 basis-1/2 px-20 py-24">
+  <div className="flex items-end space-x-2 mt-10 basis-1/2 px-4 md:px-20 py-24">
     {/* Second place */}
-    <div className="w-44 h-52 bg-[#3B5987] rounded-t-3xl flex flex-col justify-end items-center pb-2 relative">
+    <div className=" w-44 h-52 bg-[#3B5987] rounded-t-3xl flex flex-col justify-end items-center pb-2 relative">
       <div className="absolute -top-8 w-24 h-24 rounded-full overflow-hidden border-4 border-[#999999]">
         {/* Avatar */}
         <img
